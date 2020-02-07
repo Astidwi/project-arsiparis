@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'lato', 'arial','sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-color: rgb(68, 209, 209);
+    height: 75px;
+    position: relative;
+    line-height:80px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: ;
+}
+
+.steps-box:first-child{
+    margin-top: ;
+    text-align: left;
+    padding-left: 3%;
+    font-size: 20px;
+    width: 20%;
+    margin-right: 10%;
+    position: absolute;
+    background-color: rgb(207, 207, 207);
+    height: 520px;
+    
+}
+
+/*
+.steps-box:last-child{
+    margin-left: 20%;
+    text-align: left;
+    padding-right: 3%;
+    font-size: 20px;
+    margin-block: 0px;
+}
+
+.option-box:first-child{
+    background-color: aqua;
+    height: 200px;
+    text-align: center;
+    width: 32%;
+    border-radius: 30%;
+}
+*/
+
+.pilihan{
+    line-height: 30px;
+    list-style: none;
+}
+
+.pilihan1{
+    background-color: rgb(165, 165, 165);
+}
+
+.pilihan1:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.pilihan2{
+    background-color: rgb(165, 165, 165);
+    margin-top: 10px;
+}
+
+.pilihan3{
+    background-color: rgb(165, 165, 165);
+    margin-top: 10px;
+}
+
